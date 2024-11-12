@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seb7a-Sadka-Garya </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    <div class="tasbih">
+        <h1>سبحة </h1>
+        <select id="dhikr" class="form-control">
+            <option value="سبحان الله">سبحان الله</option>
+            <option value="الحمد لله">الحمد لله</option>
+            <option value="الله أكبر">الله أكبر</option>
+            <option value="لا إله إلا الله">لا إله إلا الله</option>
+            <option value="أستغفر الله">أستغفر الله</option>
+            <option value="سبحان الله وبحمده">سبحان الله وبحمده</option>
+            <option value="لا حول ولا قوة إلا بالله">لا حول ولا قوة إلا بالله</option>
+            <option value="اللهم صل على محمد">اللهم صل على محمد</option>
+            <option value="اللهم إني أسألك العفو والعافية">اللهم إني أسألك العفو والعافية</option>
+        </select>
+        <input type="number" id="target" min="1" value="33" placeholder="الهدف" class="form-control" hidden>
+        <div id="currentDhikr"></div>
+        <div class="counter" id="counter">0</div>
+        <div class="buttons">
+            <button id="increment">تسبيح</button>
+            <button id="reset">إعادة تعيين</button>
+        </div>
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+        <div id="streakCount">التكرار المتتالي: 0</div>
+        <p>السبحة مجانية - صدقة جارية </p>
+        <pr>تحت أشراف م/ احمد خالد . 2024</pr>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
