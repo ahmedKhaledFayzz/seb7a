@@ -1,0 +1,1 @@
+self.SEB7A_CONFIG={supabaseUrl:"https://wbuttxhtsutdlslwpnzt.supabase.co",supabaseAnonKey:"sb_publishable_yYGOEvvVqPw8F5AvUIa3eQ_LiZFCtuh",vapidPublicKey:"BJ4DOMoqEkLxGK6Jnq6KHI1AcZexE5AmUnzRREVa09PVkeQQT7DxuBt7xs5PfVf-Hpap3EDh9dc6epz09qYuWKE"};
